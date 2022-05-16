@@ -677,9 +677,16 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
+    color: #525252;
 }
-
+q {
+    font-size: 20px;
+    color: #525252;
+}
+q + p {
+    margin-top: 20px;
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -754,7 +761,7 @@ h4 {
 
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
+    padding: 40px 40px 0px 40px;
 }
 
 .bold-link {
@@ -775,7 +782,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    /*color: #F3976C!important;*/
+    color: white;
 }
 
 .btn-atomic-tangerine {
