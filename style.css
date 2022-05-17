@@ -10,7 +10,6 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
 a:hover {
@@ -743,7 +742,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .portfolio-thumb {
@@ -782,17 +781,19 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+   /* color: #F3976C!important;*/
+   color: white!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    /*color: #FFFFFF!important;*/
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #FFB357!important;
+    color: #551C41!important;
 }
 
 .ltc-white {
@@ -1045,5 +1046,9 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    section article img{
+        width: 100%;
+        max-width: 100px;
     }
 }
