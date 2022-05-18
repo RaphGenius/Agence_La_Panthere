@@ -90,7 +90,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+   /* background: url("img/texture-paper.png");*/
     background-size: 280px 280px;
 }
 
@@ -649,7 +649,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
+    font-weight: 600;
     color: #575757!important;
 }
 
@@ -742,9 +742,12 @@ h4 {
 }
 
 .white {
+    color: white!important;
+    font-weight: 1000;
+}
+.col-sm-12 p{
     color: black!important;
 }
-
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -787,8 +790,8 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    /*color: #FFFFFF!important;*/
-    color: black!important;
+    color: #FFFFFF!important;
+   /* color: black!important;*/
 }
 
 .btn-atomic-tangerine:hover {
