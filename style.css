@@ -462,8 +462,11 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none!important;
+button:focus,
+a:focus,
+.navbar-toggle:focus,
+input:active {
+    outline: 2px solid black;
 }
 
 .btn-rd {
@@ -508,13 +511,13 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, 0.8);
     box-shadow: none;
 }
 
 .scrollToTop {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -970,8 +973,7 @@ h4 {
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
-        -webkit-box-shadow: none;
-        box-shadow: none;
+
     }
     .navbar-brand img {
         max-height: 40px;
@@ -1037,6 +1039,9 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    iframe{
+        display: none;
     }
 }
 
