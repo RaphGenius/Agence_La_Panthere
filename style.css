@@ -15,6 +15,7 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    color: #f57e47!important;
 }
 
 #page-loading-blocs-notifaction {
