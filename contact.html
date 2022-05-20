@@ -4,19 +4,19 @@
     <meta charset="utf-8">
     <meta name="description" content="Vous souhaitez une solution en web design ? Prenez contact avec notre équipe d'expert!">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg" alt="Logo de la société La Panthère, une tête de panthère blanche aux contours noires">
+    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
     
-	<script src="./js/jquery-2.1.0.min.js"defer></script>
-	<script src="./js/bootstrap.min.js"defer></script>
-	<script src="./js/blocs.min.js"defer></script>
-	<script src="./js/jqBootstrapValidation.min.js"defer></script>
-	<script src="./js/formHandler.min.js"defer></script>
+	<script src="./js/jquery-2.1.0.min.js" defer></script>
+	<script src="./js/bootstrap.min.js" defer></script>
+	<script src="./js/blocs.min.js" defer></script>
+	<script src="./js/jqBootstrapValidation.min.js" defer></script>
+	<script src="./js/formHandler.min.js" defer></script>
     <title>Contactez-nous!</title>
 
     
@@ -78,7 +78,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
 						<label for="name">
 							Nom
@@ -95,7 +95,7 @@
 						<label for="input_504">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="message" required id="input_504" placeholder="Un amis m'a parlé de votre agence" />
+						<input class="form-control" type="text" required id="input_504" placeholder="Un amis m'a parlé de votre agence" />
 					</div>
 					<div class="form-group">
 						<label for="message">
@@ -134,22 +134,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://twitter.com/" aria-label="twitter"><span class="fa fa-twitter icon-md" ></span></a>
+							<a class="social" href="https://twitter.com/" aria-label="twitter" title="Twitter"><span class="fa fa-twitter icon-md" ></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://www.facebook.com/" aria-label="facebook"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="https://www.facebook.com/" aria-label="facebook" title="Facebook"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://dribbble.com/" aria-label="Dribble"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="https://dribbble.com/" aria-label="Dribble" title="Dribble"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://www.instagram.com/?hl=fr" aria-label="Instagram"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="https://www.instagram.com/?hl=fr" aria-label="Instagram" title="Instagram"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
